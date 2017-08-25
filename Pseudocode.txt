@@ -1,0 +1,1 @@
+1) Images need to be synchronized when the player selects a choice.
