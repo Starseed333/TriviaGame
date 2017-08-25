@@ -1,6 +1,6 @@
 body{
 	background-image: url("https://kecu.org/wp-content/uploads/2015/05/open-road-hd-wallpaper.jpg");
-	color: black;
+	color: #333333;
 }
 
 #timer{
@@ -31,14 +31,15 @@ body{
 }
 
 
-#question_div{
+#question{
 	margin-left: 250px;
 	font-size: 25px;
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-#choices_div{
+#choices{
 
 	margin-left: 700px;
 	font-size: 20px;
@@ -75,3 +76,25 @@ body{
 .Unanswered{
 	margin-left: 600px;
 }
+
+
+
+.slider {
+  margin-left: 470px;
+  padding-top: 20px;
+  width: 580px; /* Update to your slider width */
+  height: 250px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+
+
+
